@@ -1,6 +1,6 @@
-# project
+# spa project
 
-> A Vue.js project
+> A Spa Project
 
 ## Build Setup
 
