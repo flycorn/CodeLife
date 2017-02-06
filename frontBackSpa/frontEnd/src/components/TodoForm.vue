@@ -22,6 +22,10 @@ export default {
   },
   methods: {
       addTodo(newTodo) {
+          if(newTodo.title==""){
+              this.$store.dispatch('showMsg', "请填写内容!")
+              return
+          }
           this.$store.dispatch('saveTodo', newTodo)
       }
   }

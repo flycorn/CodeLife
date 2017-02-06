@@ -58,10 +58,17 @@ export default new Vuex.Store({
             state.msgText = text
             state.msgType = type
             state.msg = true
+        },
+        close_msg (state){
+            state.msgText = ""
+            state.msg = false
         }
     },
     //接口
     actions: {
+        showMsg (store, msg) {
+            store.commit('show_msg', msg)
+        },
         //注册
         register(store, form) {
             store.state.loading = true
@@ -172,6 +179,11 @@ export default new Vuex.Store({
                 todo.token = store.state.token
                 Vue.axios.post(apiUrl + '/todo/create', todo).then(response => {
                     store.state.loading = false
+                    if(response.data.status == 'failed'){
+                        store.commit('show_msg', response.data.errors.message)
+                        return
+                    }
+                    store.commit('close_msg')
                     store.commit('add_todo', response.data.correct.data.todo)
                 })
                 store.state.newTodo = {id: null, title: "", completed: false}
