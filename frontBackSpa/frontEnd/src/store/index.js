@@ -15,7 +15,7 @@ import auth from '../lib/auth'
 Vue.use(Vuex)
 
 //定义接口域名
-const apiUrl = 'http://vuejs.app/api'
+const apiUrl = 'http://devapi.flycorn.com/api'
 
 //定义数据
 export default new Vuex.Store({
