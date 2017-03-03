@@ -1,6 +1,14 @@
-># 代码生活
+# FcTeamChat
 
-- 1、**[frontBackSpa [基于Vue+Laravel的前后端分离Spa]](https://github.com/flycorn/CodeLife/tree/master/frontBackSpa)**
+> [FcTeamChat] 基于php socket的聊天室应用
 
-- 2、**[fcTeamChat [基于php的socket聊天应用]](https://github.com/flycorn/CodeLife/tree/master/fcTeamChat)**
+```
+1、index.php 中配置对应ip
 
+2、cli中执行：php index.php
+
+3、访问：index.html
+
+```
+
+![FcTeamChat](https://github.com/flycorn/CodeLife/blob/master/fcTeamChat/chat.gif)
