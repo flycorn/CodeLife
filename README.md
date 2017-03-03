@@ -1,6 +1,12 @@
-># 代码生活
+># FrontBackSpa
 
-- 1、**[frontBackSpa [基于Vue+Laravel的前后端分离Spa]](https://github.com/flycorn/CodeLife/tree/master/frontBackSpa)**
+> [FrontBackSpa] 基于Vue+Laravel的备忘录应用
 
-- 2、**[fcTeamChat [基于php的socket聊天应用]](https://github.com/flycorn/CodeLife/tree/master/fcTeamChat)**
+```
+前端：Vue2.0+Vuex+Vue-router+Webpack
 
+后端：Laravel+Dingo+Jwt
+
+```
+
+![FrontBackSpa](https://github.com/flycorn/CodeLife/blob/frontBackSpa/frontBackSpa.gif?raw=true)
