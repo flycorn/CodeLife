@@ -11,4 +11,4 @@
 
 ```
 
-![FcTeamChat](https://github.com/flycorn/CodeLife/blob/master/fcTeamChat/chat.gif)
+![FcTeamChat](https://github.com/flycorn/CodeLife/blob/fcTeamChat/chat.gif?raw=true)
